@@ -1,0 +1,100 @@
+.accordion-button, .sidebar {
+    border: 0 !important;
+    background-color: #303030  !important;
+}
+
+.sidebar {
+    height: 100vh;
+}
+
+.accordion-item {
+    background-color:#404040 !important;
+}
+
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    
+    border-right:px solid blue; 
+}
+
+.secondary-dropdown {
+    color: white;
+    padding-x: 50px !important;
+}
+
+.secondary-dropdown:hover {
+    background-color: #0d6efd !important;
+    cursor: pointer;
+}
+
+.list-item {
+    background-color: #404040 !important;
+    border: unset !important;
+    border-bottom: 1px solid gray !important;
+    border-radius: 0% !important;
+}
+
+.list-item:hover {
+    background-color: #0d6efd !important;
+}
+
+.list-item-sec {
+    padding: 10px 50px !important;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.list-item-sec:hover {
+    background-color: #0d6efd !important;
+}
+
+.list-container {
+    height: 700px !important;
+    overflow: auto !important;
+    cursor: pointer;
+}
+
+.accordion-button:focus {
+    border: 0 !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.underline:hover {
+    color: white !important;
+}
+
+.card-col {
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    overflow: auto !important;
+}
+
+.badges {
+    padding: 10px 20px !important;
+    background-color: rgb(160, 160, 160) !important;
+    cursor: pointer;
+}
+
+.card-subtitle {
+    font-size: 14px !important;
+}
+
+#exampleFormControlTextarea1 {
+    background-color: rgb(230, 230, 230);;
+}
+
+.icon-column {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+    color: gray;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
